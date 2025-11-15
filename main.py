@@ -65,4 +65,4 @@ print(f"Ensemble Accuracy (on validation set): {acc:.4f}")
 
 
 predict = ensemble_model.predict(X_test_scaled)
-np.savetxt("test_predictions.csv", predict, delimiter=",", fmt="%d", header="label", comments="")
+np.savetxt("test_predictions2.csv", predict, delimiter=",", fmt="%d", header="label", comments="")
